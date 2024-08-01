@@ -1,0 +1,21 @@
+﻿@page "/"
+@using Library_1.Books
+@inherits Library_1ComponentBase
+<div class="row entry-row">
+    <div class="col-auto">
+        <h1 class="content-header-title">Welcome to Library_1!</h1>
+    </div>
+</div>
+
+        
+        @if (!CurrentUser.IsAuthenticated)
+        {
+            <a href="/Account/Login" class="btn btn-primary mb-1">
+                @L["Login"]
+            </a>
+        }
+
+         
+     
+       
+    

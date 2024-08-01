@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.2.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Library_1.Application": {
+      "path": "src/Library_1.Application/Library_1.Application.abppkg",
+      "folder": "src"
+    },
+    "Library_1.Application.Tests": {
+      "path": "test/Library_1.Application.Tests/Library_1.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Library_1.Domain.Shared": {
+      "path": "src/Library_1.Domain.Shared/Library_1.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Library_1.Application.Contracts": {
+      "path": "src/Library_1.Application.Contracts/Library_1.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Library_1.HttpApi": {
+      "path": "src/Library_1.HttpApi/Library_1.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Library_1.HttpApi.Client": {
+      "path": "src/Library_1.HttpApi.Client/Library_1.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Library_1.EntityFrameworkCore.Tests": {
+      "path": "test/Library_1.EntityFrameworkCore.Tests/Library_1.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Library_1.EntityFrameworkCore": {
+      "path": "src/Library_1.EntityFrameworkCore/Library_1.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Library_1.TestBase": {
+      "path": "test/Library_1.TestBase/Library_1.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Library_1.Domain.Tests": {
+      "path": "test/Library_1.Domain.Tests/Library_1.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Library_1.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Library_1.HttpApi.Client.ConsoleTestApp/Library_1.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Library_1.DbMigrator": {
+      "path": "src/Library_1.DbMigrator/Library_1.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Library_1.Blazor": {
+      "path": "src/Library_1.Blazor/Library_1.Blazor.abppkg",
+      "folder": "src"
+    },
+    "Library_1.Domain": {
+      "path": "src/Library_1.Domain/Library_1.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
